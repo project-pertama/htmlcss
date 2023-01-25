@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+
+/*=============Start Header=================*/
+
+.header {
+    width: 100%;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+div.header nav ul{
+    margin-top:35px;
+    margin-left: 100px;
+}
+
+div.header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+div.header nav a {
+    margin-left: 180px;
+    margin-top: 15px;
+}
+
+.header nav ul li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(26, 52, 94, 0.9);
+    margin-left: 5px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+nav div .btn-menu {
+    margin-top:30px;
+    margin-left: 500px;
+    padding: 5px 30px 5px 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #1A345E;
+    border-radius: 10px;
+}
+
+nav ul li a.active {
+    color: #1A345E;
+    text-decoration-line: underline;
+    font-weight: bolder;
+}
+
+/*=============End Header=================*/
+
+/*=============Start Footer=================*/
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 30px 100px 30px;
+    background-color: #1A345E;
+    color: white;
+    display: flex;
+}
+
+
+.section1 {
+    margin-left: 180px;
+    line-height: 30px;
+}
+
+div.section1 img {
+    width: 100px;
+    height: 50px;
+}
+
+div.section1 a{
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.section2{
+    line-height: 25px;
+    margin-left: 400px;
+}
+
+div.section2 a{
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.section3{
+    line-height: 25px;
+    margin-left: 220px;
+}
+
+div.section3 a{
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+div.section3 a i{
+    margin-right:5px;
+}
+
+/*=============Start Footer=================*/
+
+.content1{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right:200px;
+    margin-bottom: 100px;
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+
+.imagecontent img{
+    border-radius: 10px;
+}
+
+.textcontent h1{
+    color: #1A345E;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.textcontent p{
+    margin-top: 30px;
+    width: 80%;
+    color: #1A345E;
+}
+
+div .btn-content1{
+    margin-top: 40px;
+    padding: 5px 30px 5px 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #1A345E;
+    border-radius: 10px;
+}
+
