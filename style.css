@@ -10,6 +10,7 @@ body {
 }
 
 
+
 /*=============Start Header=================*/
 
 .header {
@@ -127,7 +128,7 @@ div.section3 a i{
     margin-right:5px;
 }
 
-/*=============Start Footer=================*/
+/*=============End Footer=================*/
 
 .content1{
     margin-top: 100px;
@@ -166,5 +167,117 @@ div .btn-content1{
     color: #FFFFFF;
     background: #1A345E;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 858px) {
+    
+    div.header nav a {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    div.header nav a img{
+        width: 80px;
+        height: 50px;
+    }
+
+    
+    div.header nav ul{
+        margin-top:35px;
+        margin-left: 20px;
+    }
+
+    .header nav ul li a {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        color: rgba(26, 52, 94, 0.9);
+        margin-left: 5px;
+        text-decoration: none;
+    }
+
+    nav div button.btn-menu {
+        margin-top:30px;
+        margin-left: 10px;
+        padding: 5px 30px 5px 30px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        color: #FFFFFF;
+        background: #1A345E;
+        border-radius: 10px;
+    }
+    
+    .content1{
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-bottom: 100px;
+        display: block;
+    }
+    
+    .imagecontent img{
+        border-radius: 10px;
+        width: 230px;
+        height: 200px;
+        
+    }
+    
+    .imagecontent {
+        margin-top: 20px;
+    }
+    
+    .textcontent h1{
+        color: #1A345E;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    
+    .textcontent p{
+        margin-top: 30px;
+        color: #1A345E;
+    }
+    
+    .footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 30px 30px 100px 30px;
+        background-color: #1A345E;
+        color: white;
+        display: block;
+    }
+    
+    .section1 {
+        margin-left: 2px;
+        line-height: 30px;
+    }
+
+    div.section1 a{
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+
+    div.section1 p{
+        color: #FFFFFF;
+        font-size: 14px;
+    }
+
+    .section2{
+        margin-top: 20px;
+        line-height: 25px;
+        margin-left: 2px;
+    }
+
+    .section3{
+        margin-top: 20px;
+        line-height: 25px;
+        margin-left: 2px;
+    }
+    
+    
+    
 }
 
